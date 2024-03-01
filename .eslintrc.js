@@ -49,8 +49,7 @@ module.exports = {
             },
         ],
         'max-len': ['error', { ignoreComments: true, code: 100 }],
-        // временная замена linebreak-style
-        'linebreak-style': 'off',
+        // временная замена linebrerak-style
     },
     globals: {
         __IS_DEV__: true,
