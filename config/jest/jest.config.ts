@@ -6,6 +6,9 @@
 import path from 'path';
 
 export default {
+    globals: {
+        __IS_DEV__: true,
+    },
     clearMocks: true,
     testEnvironment: 'jsdom',
     coveragePathIgnorePatterns: [
@@ -41,7 +44,7 @@ export default {
     // Stop running tests after `n` failures
     // bail: 0,
 
-    // The directory where Jest should store its cached dependency information
+    // The directory where Jest should config its cached dependency information
     // cacheDirectory: "/private/var/folders/x3/3g__0q5x3v70z7l414hpdyh00000gn/T/jest_dx",
 
     // Automatically clear mock calls, instances and results before every test

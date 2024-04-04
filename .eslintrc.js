@@ -54,6 +54,7 @@ module.exports = {
         'jsx-a11y/no-static-element-interactions': 'off',
         // временная замена linebrerak-style
         'linebreak-style': 'off',
+        'no-param-reassign': 'off',
         // удобные правила для плагина "eslint-plugin-react-hooks"
         // который помагает определить когда надо мемоизировать функцию
         'react-hooks/rules-of-hooks': 'error',
